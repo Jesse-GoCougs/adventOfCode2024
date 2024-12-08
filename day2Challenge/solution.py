@@ -29,7 +29,7 @@ def read_input(input_file_dir):
 def unsafe_level_exception(level):
     if check_if_level_safe(level):
         return True 
-    safeCount = 0
+
     n = len(level)
     for index in range(n):
         # Create a new list with the ith element removed
